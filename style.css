@@ -13,3 +13,42 @@ body,html {
   border: 5px solid #FFFF00;
   padding: 10px;
 }
+
+
+
+@media only screen and (max-width: 1072px) {
+  body {
+    background-color: aliceblue;
+  }
+  .welcome {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 688px) {
+  body {
+    background-color: orange;
+  }
+  .welcome {
+    font-size: 15px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+}
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+.welcome {
+  font-size: 20px;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+
+}
