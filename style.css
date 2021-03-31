@@ -43,8 +43,14 @@ body,html {
   and (-webkit-min-device-pixel-ratio: 2) {
 
 .welcome {
-  font-size: 20px;
+  font-size: 40px;
 }
+
+h3 {
+  font-size: 30px
+}
+
+
 
 body {
   background-color: #99ffbb;
