@@ -18,7 +18,7 @@ body,html {
 
 @media only screen and (max-width: 1072px) {
   body {
-    background-color: aliceblue;
+    background-color: #99ffbb;
   }
   .welcome {
     font-size: 20px;
@@ -47,7 +47,7 @@ body,html {
 }
 
 body {
-  background-color: aliceblue;
+  background-color: #99ffbb;
 }
 
 
